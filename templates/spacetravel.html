@@ -11,22 +11,25 @@
         var change =  1;
         function changeplus(){
             if(change != 8){
-                document.getElementById('obj').src = "static/img/"+ change +".png";
                 change++;
+                document.getElementById('obj').src = "static/img/"+ change +".png";
+                
             }else if(change == 8){
                 document.getElementById('obj').src = "static/img/"+ change +".png";
             }
         }
         function changeminer(){
             if(change != 1){
-                document.getElementById('obj').src = "static/img/"+ change +".png";
                 change--;
+                document.getElementById('obj').src = "static/img/"+ change +".png";
+                
             }else if(change == 1){
                 document.getElementById('obj').src = "static/img/"+ change +".png";
             }
         }
         function infopage(){
-            document.getElementById
+            document.getElementById('info').setAttribute("href","/"+change);
+
         }
     </script>
 </head>
@@ -69,12 +72,12 @@
             <div>
             
             <a id = 'lastone' class = 'left'>
-                <ion-icon onclick="changeminer()" size="large" name="chevron-back"></ion-icon>
+                <ion-icon onclick="changeminer();infopage()" size="large" name="chevron-back"></ion-icon>
                 
             </a>
            
             <a id = 'nextone' class = 'right'>
-                <ion-icon onclick="changeplus()" size ="large" name="chevron-forward"></ion-icon>
+                <ion-icon onclick="changeplus();infopage()" size ="large" name="chevron-forward"></ion-icon>
             </a>
         
             <!--音樂播放
