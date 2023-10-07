@@ -53,12 +53,7 @@ li{
     right: 10px;
     top :60%;
 }
-.mid{
-    float: left;
-    
-    color: #ffffff;
-    
-}
+
 .show li{
     list-style: none;
     max-width: 80%;
@@ -83,7 +78,7 @@ section {
     
 }
 .background {
-    background-color: #826363; 
+    background-color: #2c2a31; 
     
     background-repeat: no-repeat; 
      
@@ -92,11 +87,11 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 0%;
-    height:600px;
+    height:650px;
     
     background-size: cover;
-    background-image: url(../img/bg.jpg); 
-
+/*    background-image: url(../img/bg.jpg); 
+*/
     }
 
 .background h2{
@@ -132,4 +127,40 @@ a{
     height: 50vw;
     display: flex;
     justify-content: space-around;
+}
+.mid{
+    width : 35vw;
+    height : 40vw;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.about{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    width: 99vw;
+    height: 40vw;
+    justify-content: center;
+    background-color: #0a090b;
+    align-items: center;
+    display: flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+}
+.au{
+    content: "";
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.innerabout{
+    content: "";
+    display: inline-block;
+    color: #fff;
+    border-color: #efffaa;
+    border-style: dashed;
+    text-align: center;
+    
 }
