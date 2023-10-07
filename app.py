@@ -5,6 +5,15 @@ app = Flask(__name__)
 @app.route('/')
 def mainpage():
     return render_template('spacetravel.html')
+
+@app.route('/aboutus')
+def au():
+    return render_template('aboutus.html')
+
+@app.route('/contactus')
+def cu():
+    return render_template('contactus.html')
+
 @app.route('/1')
 def info1():
     return render_template('1.html')
