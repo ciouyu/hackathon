@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #333;
+    background-color: #151515;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -32,6 +32,38 @@ nav ul li {
     margin: 0 auto;
     padding: 20px;
 }
+li{
+    box-sizing: border-box;
+    display: inline;
+    
+}
+.left{
+    
+    
+    color: #efffaa;
+    position: absolute;
+    left: 10px;;
+    top: 60%;
+    
+}
+.right{
+    
+    color: #efffaa;
+    position: absolute;
+    right: 10px;
+    top :60%;
+}
+.mid{
+    float: left;
+    
+    color: #ffffff;
+    
+}
+.show li{
+    list-style: none;
+    max-width: 80%;
+    max-height: 80%;
+}
 
 /* 媒體查詢，根據屏幕寬度進行調整 */
 @media (max-width: 768px) {
@@ -44,16 +76,29 @@ nav ul li {
         margin-bottom: 10px;
     }
 }
+
+section {
+    text-decoration:none;
+    color: #fff;
+    
+}
 .background {
-    background-color: #000; 
-    background-image: url(/img/systeme-solairesysteme-solaire-bg.jpg); 
+    background-color: #826363; 
+    
     background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: top center;
+     
+    background-position:bottom  center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    height:600px;
     
-    margin: auto -15px; 
+    background-size: cover;
+    background-image: url(../img/bg.jpg); 
+
     }
-    
+
 .background h2{
     color: #fcecbb;
 }
@@ -70,4 +115,21 @@ color: #fff;
 .whats-new p {
 
 color:#ffffff;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+}
+.adjust{
+    width: 70vw;
+    height: 50vw;
+    display: flex;
+    justify-content: space-around;
 }
