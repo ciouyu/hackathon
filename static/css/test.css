@@ -98,7 +98,9 @@ section {
 /*    background-image: url(../img/bg.jpg); 
 */
     }
-    
+    .img{
+        vertical-align: middle;
+    }
 
 .background h2{
     color: #fcecbb;
