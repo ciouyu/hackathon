@@ -1,4 +1,8 @@
   /* 基本的 CSS 樣式 */
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@500&display=swap');
+h1{
+    font-family: 'Dela Gothic One', cursive;
+}
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,6 +29,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    font-family: 'Gabarito', cursive;
 }
 
 .container {
@@ -116,6 +121,7 @@ a{
     text-decoration:none;
     color: #ffffff;
 }
+
 .outside{
     display: flex;
     justify-content: center;
@@ -164,3 +170,4 @@ a{
     text-align: center;
     
 }
+

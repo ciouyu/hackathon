@@ -3,16 +3,22 @@ from flask import Flask,request,render_template, redirect,Response
 app = Flask(__name__)
 
 @app.route('/')
-def mainpage():
+def home():
+    return render_template('home.html')
+@app.route('/race')
+def race():
     return render_template('spacetravel.html')
-
+@app.route('/test')
+def test():
+    return render_template('spacetravel copy.html')
 @app.route('/aboutus')
 def au():
     return render_template('aboutus.html')
-
 @app.route('/craft')
 def craft():
     return render_template('craft.html')
+
+#info    
 @app.route('/1')
 def info1():
     return render_template('1.html')
