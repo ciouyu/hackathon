@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template('home.html')
+#map
 @app.route('/race')
 def race():
     return render_template('map.html')
@@ -38,9 +39,27 @@ def race8():
 @app.route('/aboutus')
 def au():
     return render_template('aboutus.html')
+
+#craft
 @app.route('/craft')
 def craft():
     return render_template('craft.html')
+@app.route('/craft2')
+def craft2():
+    return render_template('craft2.html')
+@app.route('/craft3')
+def craft3():
+    return render_template('craft3.html')
+@app.route('/craft4')
+def craft4():
+    return render_template('craft4.html')
+@app.route('/craft5')
+def craft5():
+    return render_template('craft5.html')
+
+@app.route('/info')
+def info():
+    return render_template('info.html')
 
 #info    
 @app.route('/1')
