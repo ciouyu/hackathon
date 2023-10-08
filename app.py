@@ -45,7 +45,7 @@ def information():
     return render_template('info.html')
 @app.route('/booking')
 def booking():
-    render_template('booking,html')
+    return render_template('booking.html')
 
 
 #craft
