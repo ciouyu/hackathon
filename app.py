@@ -10,9 +10,6 @@ def mainpage():
 def au():
     return render_template('aboutus.html')
 
-@app.route('/contactus')
-def cu():
-    return render_template('contactus.html')
 @app.route('/craft')
 def craft():
     return render_template('craft.html')
