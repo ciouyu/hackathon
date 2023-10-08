@@ -40,6 +40,14 @@ def race8():
 def au():
     return render_template('aboutus.html')
 
+@app.route('/info')
+def information():
+    return render_template('info.html')
+@app.route('/booking')
+def booking():
+    render_template('booking,html')
+
+
 #craft
 @app.route('/craft')
 def craft():
@@ -61,7 +69,7 @@ def craft5():
 def info():
     return render_template('info.html')
 
-#info    
+#info of star   
 @app.route('/1')
 def info1():
     return render_template('1.html')

@@ -83,7 +83,7 @@ section {
     
 }
 .background {
-    background-color: #2c2a31; 
+    background-color: #000000; 
     
     background-repeat: no-repeat; 
      
@@ -92,12 +92,13 @@ section {
     justify-content: center;
     align-items: stretch;
     margin-bottom: 0%;
-    height:650px;
+    height:max-content;
     
     background-size: cover;
 /*    background-image: url(../img/bg.jpg); 
 */
     }
+    
 
 .background h2{
     color: #fcecbb;
@@ -170,10 +171,12 @@ a{
     text-align: center;
     
 }
-div{
-    text-decoration:none;
-    color: #000000;
+
+.full{
+    width: max-content;
+    height: max-content;
 }
 .home{
-    width: 50vh;
+    width: 100vmax;
+    height: 50vmax;
 }
