@@ -90,7 +90,7 @@ section {
     background-position:bottom  center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin-bottom: 0%;
     height:650px;
     

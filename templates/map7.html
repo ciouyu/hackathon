@@ -8,6 +8,17 @@
     <link href="{{url_for ('static', filename='css/test.css' )}}" rel ="stylesheet"/><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,960,400"  href="/7">
+        <area shape="rect" coords="28,530,141,410"  href="/map1">
+        <area shape="rect" coords="141,530,254,410" href="/map2">
+        <area shape="rect" coords="254,530,367,410" href="/map3">
+        <area shape="rect" coords="367,530,480,410" href="/map4">
+        <area shape="rect" coords="480,530,593,410" href="/map5">
+        <area shape="rect" coords="593,530,706,410" href="/map6">
+        <area shape="rect" coords="706,530,819,410" href="/map7">
+        <area shape="rect" coords="819,530,932,410" href="/map8">
+    </map>
 </head>
 <body>
     <header>
@@ -45,16 +56,10 @@
        
    <section class="whats-new background">
         
-        <img   src="static/img/1.png"  border = "0" width="990" height="560" usemap="#planetmap" alt="planetmap">
+        <img   src="static/img/7.JPG"  border = "0" width="960" height="540" usemap="#planetmap" alt="planetmap">
         
-
-        <map name="planetmap">
-            <area shape="rect" coords="0,0,100,100" href="/1">
-            <area shape="rect" coords="0,100,100,200" href="/2">
-            <area shape="rect" coords="0,0,100,100" href="/3">
-            <area shape="rect" coords="0,0,100,100" href="/4">
-            <area shape="rect" coords="0,0,100,100" href="/5">
-        </map>
+     <!--   <script src="../static/js/test.js"></script>
+        -->
         </div>
         </ul>
     </section>

@@ -7,10 +7,34 @@ def home():
     return render_template('home.html')
 @app.route('/race')
 def race():
-    return render_template('spacetravel.html')
-@app.route('/test')
-def test():
-    return render_template('spacetravel copy.html')
+    return render_template('map.html')
+@app.route('/map1')
+def race1():
+    return render_template('map1.html')
+@app.route('/map2')
+def race2():
+    return render_template('map2.html')
+@app.route('/map3')
+def race3():
+    return render_template('map3.html')
+@app.route('/map4')
+def race4():
+    return render_template('map4.html')
+@app.route('/map5')
+def race5():
+    return render_template('map5.html')
+@app.route('/map6')
+def race6():
+    return render_template('map6.html')
+@app.route('/map7')
+def race7():
+    return render_template('map7.html')
+@app.route('/map8')
+def race8():
+    return render_template('map8.html')
+
+
+
 @app.route('/aboutus')
 def au():
     return render_template('aboutus.html')
