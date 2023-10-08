@@ -170,4 +170,10 @@ a{
     text-align: center;
     
 }
-
+div{
+    text-decoration:none;
+    color: #000000;
+}
+.home{
+    width: 50vh;
+}
